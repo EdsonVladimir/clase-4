@@ -1,0 +1,12 @@
+<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+  <div class="col" *ngFor="let persona of Personas">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{persona.nombre}} {{persona.apellido}}</h5>
+        <p class="card-text">{{persona.descripcion}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
